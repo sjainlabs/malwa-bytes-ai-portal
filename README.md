@@ -1,1 +1,156 @@
-# malwa-bytes-ai-portal
+# Malwa Bytes AI Portal
+
+AI-Driven Software for Smarter Business - A modern React + Vite + Tailwind CSS web application showcasing Malwa Bytes' AI-powered solutions for SMB automation in India.
+
+## 🚀 Features
+
+- **Modern Tech Stack**: React 18, Vite, Tailwind CSS, React Router
+- **Responsive Design**: Fully responsive layout for mobile and desktop
+- **AI-Powered Solutions**: Showcasing Smart Billing, Inventory Automation, CRM & Loyalty, and AI Insights
+- **Smooth Navigation**: Smooth scrolling and interactive navigation
+- **Contact Form**: Functional contact form with validation
+- **GitHub Pages Ready**: Configured for easy deployment to GitHub Pages
+
+## 🎨 Design
+
+The application uses a carefully crafted color palette:
+- **Deep Navy**: `#0C1A3E` - Primary brand color
+- **Bright Orange**: `#F66A00` - Accent color for CTAs and highlights
+- **Soft Gray**: `#F4F4F4` - Background color
+
+## 📦 Installation
+
+### Prerequisites
+- Node.js (version 16 or higher)
+- npm or yarn
+
+### Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/sjainlabs/malwa-bytes-ai-portal.git
+cd malwa-bytes-ai-portal
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+## 💻 Development
+
+Start the development server:
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`
+
+## 🏗️ Build
+
+Build the application for production:
+```bash
+npm run build
+```
+
+The built files will be in the `dist` directory.
+
+Preview the production build locally:
+```bash
+npm run preview
+```
+
+## 🚀 Deployment to GitHub Pages
+
+### Initial Setup
+
+1. Make sure GitHub Pages is enabled in your repository settings:
+   - Go to Settings → Pages
+   - Under "Source", select "Deploy from a branch"
+   - Select the `gh-pages` branch and `/ (root)` folder
+   - Click Save
+
+2. Deploy the application:
+```bash
+npm run deploy
+```
+
+This command will:
+- Build the application (`npm run build`)
+- Deploy the `dist` folder to the `gh-pages` branch
+- Your site will be available at: `https://sjainlabs.github.io/malwa-bytes-ai-portal/`
+
+### Subsequent Deployments
+
+Simply run:
+```bash
+npm run deploy
+```
+
+## 📁 Project Structure
+
+```
+malwa-bytes-ai-portal/
+├── public/              # Static assets
+│   └── favicon.ico     # Favicon
+├── src/
+│   ├── components/     # React components
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Features.jsx
+│   │   ├── HowItWorks.jsx
+│   │   ├── Mission.jsx
+│   │   ├── Testimonials.jsx
+│   │   ├── Pricing.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx         # Main app component
+│   ├── main.jsx        # Entry point
+│   └── index.css       # Global styles with Tailwind
+├── index.html          # HTML entry point
+├── vite.config.js      # Vite configuration
+├── tailwind.config.js  # Tailwind CSS configuration
+├── postcss.config.js   # PostCSS configuration
+└── package.json        # Dependencies and scripts
+```
+
+## 🎯 Key Sections
+
+1. **Hero Section**: Eye-catching headline with call-to-action buttons
+2. **Features**: Four key features with icons and descriptions
+3. **How It Works**: Four-step process explanation
+4. **Mission**: Company mission emphasizing local SMB IT automation
+5. **Testimonials**: Customer success stories
+6. **Pricing**: Three pricing tiers (Starter, Pro, Enterprise)
+7. **Contact**: Contact form with business type selector
+8. **Footer**: Copyright and branding
+
+## 🛠️ Technologies Used
+
+- **React 18.3.1**: UI library
+- **Vite 5.2.11**: Build tool and development server
+- **Tailwind CSS 3.4.3**: Utility-first CSS framework
+- **React Router DOM 6.22.0**: Client-side routing
+- **PostCSS & Autoprefixer**: CSS processing
+- **gh-pages 6.1.1**: GitHub Pages deployment
+
+## 🌟 Mission
+
+Malwa Bytes is committed to:
+- Solving local SMB IT Automation challenges
+- Training local employees in AI and automation technologies
+- Generating employment opportunities in India
+- Bringing global-quality work to the local market
+- Empowering small and medium businesses with enterprise-level AI tools
+
+## 📝 License
+
+© 2026 Malwa Bytes. All rights reserved.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## 📧 Contact
+
+For questions or support, please use the contact form on the website or reach out through the repository issues.
