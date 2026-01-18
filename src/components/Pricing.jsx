@@ -100,7 +100,7 @@ const Pricing = () => {
               <ul className="space-y-3 mb-8">
                 {plan.features.map((feature, i) => (
                   <li key={i} className="flex items-start">
-                    <span className={`mr-2 ${plan.highlighted ? 'text-bright-orange' : 'text-bright-orange'}`}>✓</span>
+                    <span className="mr-2 text-bright-orange">✓</span>
                     <span className={plan.highlighted ? 'text-gray-200' : 'text-gray-700'}>{feature}</span>
                   </li>
                 ))}
