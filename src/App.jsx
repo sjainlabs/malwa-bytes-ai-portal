@@ -11,6 +11,8 @@ import Footer from './components/Footer'
 
 function App() {
   return (
+    // HashRouter configured for future scalability when multi-page routing is needed
+    // Currently using single-page layout with smooth scroll navigation
     <HashRouter>
       <div className="min-h-screen">
         <Navbar />
