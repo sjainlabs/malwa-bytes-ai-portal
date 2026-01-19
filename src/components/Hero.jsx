@@ -9,6 +9,14 @@ const Hero = () => {
   return (
     <section className="bg-gradient-to-br from-deep-navy to-blue-900 text-white section-padding min-h-screen flex items-center">
       <div className="max-w-7xl mx-auto text-center">
+        {/* Company Logo */}
+        <div className="mb-8 flex justify-center">
+          <img 
+            src="/malwa-bytes-logo.svg" 
+            alt="Malwa Byte - AI-Driven Software for Smarter Business" 
+            className="w-64 md:w-80 lg:w-96 h-auto"
+          />
+        </div>
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
           AI-Driven Software for <span className="text-bright-orange">Smarter Business</span>
         </h1>
