@@ -1,3 +1,4 @@
+import { HashRouter } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Features from './components/Features'
@@ -10,17 +11,21 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen">
-      <Navbar />
-      <Hero />
-      <Features />
-      <HowItWorks />
-      <Mission />
-      <Testimonials />
-      <Pricing />
-      <Contact />
-      <Footer />
-    </div>
+    // HashRouter configured for future scalability when multi-page routing is needed
+    // Currently using single-page layout with smooth scroll navigation
+    <HashRouter>
+      <div className="min-h-screen">
+        <Navbar />
+        <Hero />
+        <Features />
+        <HowItWorks />
+        <Mission />
+        <Testimonials />
+        <Pricing />
+        <Contact />
+        <Footer />
+      </div>
+    </HashRouter>
   )
 }
 
