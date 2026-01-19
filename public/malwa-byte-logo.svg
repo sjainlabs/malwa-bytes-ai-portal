@@ -1,0 +1,18 @@
+<svg width="400" height="120" viewBox="0 0 400 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Malwa Byte</title>
+  <desc>Malwa Byte company logo with tagline: AI-Driven Software for Smarter Business</desc>
+  <!-- Background rounded rectangle -->
+  <rect width="400" height="120" rx="8" fill="#0C1A3E"/>
+  
+  <!-- MB Icon Circle -->
+  <circle cx="40" cy="60" r="25" fill="#F66A00"/>
+  
+  <!-- MB Letters -->
+  <text x="40" y="70" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">MB</text>
+  
+  <!-- Malwa Byte Text -->
+  <text x="80" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">Malwa Byte</text>
+  
+  <!-- Tagline -->
+  <text x="80" y="75" font-family="Arial, sans-serif" font-size="11" fill="#F66A00" letter-spacing="1">AI-DRIVEN SOFTWARE FOR SMARTER BUSINESS</text>
+</svg>
