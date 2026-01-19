@@ -9,7 +9,7 @@ AI-Driven Software for Smarter Business - A modern React + Vite + Tailwind CSS w
 - **AI-Powered Solutions**: Showcasing Smart Billing, Inventory Automation, CRM & Loyalty, and AI Insights
 - **Smooth Navigation**: Smooth scrolling and interactive navigation
 - **Contact Form**: Functional contact form with validation
-- **GitHub Pages Ready**: Configured for easy deployment to GitHub Pages
+- **GitHub Pages Ready**: Automated deployment via GitHub Actions
 
 ## 🎨 Design
 
@@ -62,29 +62,32 @@ npm run preview
 
 ## 🚀 Deployment to GitHub Pages
 
-### Initial Setup
+This project is configured to automatically deploy to GitHub Pages using GitHub Actions.
 
-1. Make sure GitHub Pages is enabled in your repository settings:
-   - Go to Settings → Pages
-   - Under "Source", select "Deploy from a branch"
-   - Select the `gh-pages` branch and `/ (root)` folder
-   - Click Save
+### Automatic Deployment
 
-2. Deploy the application:
+The site automatically deploys when changes are pushed to the `main` branch:
+
+1. Push your changes to the `main` branch
+2. GitHub Actions will automatically:
+   - Install dependencies
+   - Build the application
+   - Deploy to GitHub Pages
+3. Your site will be available at: `https://sjainlabs.github.io/malwa-bytes-ai-portal/`
+
+### GitHub Pages Configuration
+
+Make sure GitHub Pages is enabled in your repository settings:
+- Go to Settings → Pages
+- Under "Source", select "GitHub Actions"
+- The deployment workflow is defined in `.github/workflows/deploy.yml`
+
+### Manual Build (For Testing)
+
+To build and preview locally:
 ```bash
-npm run deploy
-```
-
-This command will:
-- Build the application (`npm run build`)
-- Deploy the `dist` folder to the `gh-pages` branch
-- Your site will be available at: `https://sjainlabs.github.io/malwa-bytes-ai-portal/`
-
-### Subsequent Deployments
-
-Simply run:
-```bash
-npm run deploy
+npm run build
+npm run preview
 ```
 
 ## 📁 Project Structure
@@ -130,9 +133,8 @@ malwa-bytes-ai-portal/
 - **React 18.3.1**: UI library
 - **Vite 5.2.11**: Build tool and development server
 - **Tailwind CSS 3.4.3**: Utility-first CSS framework
-- **React Router DOM 6.22.0**: Client-side routing
+- **React Router DOM 7.12.0**: Client-side routing
 - **PostCSS & Autoprefixer**: CSS processing
-- **gh-pages 6.1.1**: GitHub Pages deployment
 
 ## 🌟 Mission
 
