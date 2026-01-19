@@ -1,6 +1,6 @@
 const Mission = () => {
   return (
-    <section className="section-padding bg-gradient-to-br from-deep-navy to-blue-900 text-white">
+    <section id="mission" className="section-padding bg-gradient-to-br from-deep-navy to-blue-900 text-white">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">

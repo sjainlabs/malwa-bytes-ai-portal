@@ -27,6 +27,9 @@ const Navbar = () => {
             <button onClick={() => scrollToSection('how-it-works')} className="hover:text-bright-orange transition-colors">
               How It Works
             </button>
+            <button onClick={() => scrollToSection('mission')} className="hover:text-bright-orange transition-colors">
+              Mission
+            </button>
             <button onClick={() => scrollToSection('pricing')} className="hover:text-bright-orange transition-colors">
               Pricing
             </button>
@@ -68,6 +71,12 @@ const Navbar = () => {
               className="block w-full text-left px-3 py-2 hover:bg-gray-700 hover:text-bright-orange transition-colors"
             >
               How It Works
+            </button>
+            <button
+              onClick={() => scrollToSection('mission')}
+              className="block w-full text-left px-3 py-2 hover:bg-gray-700 hover:text-bright-orange transition-colors"
+            >
+              Mission
             </button>
             <button
               onClick={() => scrollToSection('pricing')}
