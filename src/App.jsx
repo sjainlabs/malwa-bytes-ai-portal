@@ -1,28 +1,26 @@
-import { HashRouter } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Features from './components/Features'
-import HowItWorks from './components/HowItWorks'
-import Mission from './components/Mission'
-import Testimonials from './components/Testimonials'
-import Pricing from './components/Pricing'
-import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Home from './pages/Home'
+import About from './pages/About'
+import Products from './pages/Products'
+import ContactPage from './pages/ContactPage'
+import Blog from './pages/Blog'
 
 function App() {
   return (
-    // HashRouter configured for future scalability when multi-page routing is needed
-    // Currently using single-page layout with smooth scroll navigation
     <HashRouter>
-      <div className="min-h-screen">
+      <div className="min-h-screen flex flex-col">
         <Navbar />
-        <Hero />
-        <Features />
-        <HowItWorks />
-        <Mission />
-        <Testimonials />
-        <Pricing />
-        <Contact />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/blog" element={<Blog />} />
+          </Routes>
+        </main>
         <Footer />
       </div>
     </HashRouter>
