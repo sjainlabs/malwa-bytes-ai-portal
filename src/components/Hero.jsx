@@ -1,10 +1,7 @@
+import { useNavigate } from 'react-router-dom'
+
 const Hero = () => {
-  const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId)
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
-    }
-  }
+  const navigate = useNavigate()
 
   return (
     <section className="bg-gradient-to-br from-deep-navy to-blue-900 text-white section-padding min-h-screen flex items-center">
@@ -25,13 +22,13 @@ const Hero = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button 
-            onClick={() => scrollToSection('features')}
+            onClick={() => navigate('/products')}
             className="btn-primary text-lg"
           >
-            Explore Features
+            Explore Products
           </button>
           <button 
-            onClick={() => scrollToSection('contact')}
+            onClick={() => navigate('/contact')}
             className="bg-white text-deep-navy px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300 text-lg"
           >
             Get Started
