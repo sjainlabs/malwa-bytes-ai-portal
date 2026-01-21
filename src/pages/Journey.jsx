@@ -90,7 +90,7 @@ const Journey = () => {
       <section className="bg-gradient-to-br from-deep-navy to-blue-900 text-white section-padding">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Our Journey
+            Our Success Story
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
             From a local news platform to an AI powerhouse serving businesses across India
@@ -113,7 +113,7 @@ const Journey = () => {
                 Malwa Updates Online
               </h3>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                Our journey began with a hyperlocal news platform launched in Ratlam. 
+                Our success story began with a hyperlocal news platform launched in Ratlam. 
                 Malwa Updates Online was created to connect communities digitally, bringing 
                 local news, stories, and information to the fingertips of people in the Malwa region.
               </p>
@@ -219,7 +219,7 @@ const Journey = () => {
       <section className="section-padding bg-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-deep-navy mb-6">
-            Be Part of Our Journey
+            Be Part of Our Success Story
           </h2>
           <p className="text-xl text-gray-600 mb-8">
             Whether you're a business looking for solutions or someone who shares our vision, 

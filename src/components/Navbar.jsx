@@ -9,6 +9,8 @@ const Navbar = () => {
     { to: '/', label: 'Home' },
     { to: '/about', label: 'About' },
     { to: '/products', label: 'Products' },
+    { to: '/founder', label: 'Founder' },
+    { to: '/journey', label: 'Success Story' },
     { to: '/blog', label: 'Blog' },
     { to: '/contact', label: 'Contact' },
   ]
