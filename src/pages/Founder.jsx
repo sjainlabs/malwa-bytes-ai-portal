@@ -143,14 +143,44 @@ const Founder = () => {
         </div>
       </section>
 
-      {/* Call to Action */}
+      {/* Second Founder Section - Sohil */}
       <section className="section-padding bg-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div className="order-1 flex justify-center">
+              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-purple-600 to-purple-800 flex items-center justify-center shadow-2xl" role="img" aria-label="Sohil - Co-Founder profile">
+                <div className="text-8xl md:text-9xl font-bold text-white">S</div>
+              </div>
+            </div>
+            <div className="order-2">
+              <h2 className="text-4xl md:text-5xl font-bold text-deep-navy mb-4">
+                Sohil
+              </h2>
+              <p className="text-2xl md:text-3xl text-bright-orange font-semibold mb-6">
+                Co-Founder & CTO, Malwa Bytes
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed mb-4">
+                Sohil brings deep expertise in data engineering, AI pipelines, and scalable backend systems. 
+                With a background in full-stack development and a passion for automation, he leads the technical 
+                vision at Malwa Bytes.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                His focus is on building robust, modular platforms that can scale across industries — from 
+                healthcare to finance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <section className="section-padding bg-soft-gray">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-deep-navy mb-6">
             Join Us on This Journey
           </h2>
           <p className="text-xl text-gray-600 mb-8">
-            Today, Sapan leads product strategy and partnerships at Malwa Bytes, building AI-powered 
+            Together, Sapan and Sohil lead Malwa Bytes with a shared vision: building AI-powered 
             tools that empower India's real economy—one business at a time.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
