@@ -59,7 +59,7 @@ const Founder = () => {
               </p>
             </div>
             <div className="order-1 md:order-2 flex justify-center">
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-bright-orange to-orange-600 flex items-center justify-center shadow-2xl">
+              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-bright-orange to-orange-600 flex items-center justify-center shadow-2xl" role="img" aria-label="Sapan Jain - Founder profile">
                 <div className="text-8xl md:text-9xl font-bold text-white">SJ</div>
               </div>
             </div>

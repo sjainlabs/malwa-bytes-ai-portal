@@ -126,6 +126,7 @@ const Journey = () => {
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 btn-primary"
+                aria-label="Visit Malwa Updates Online (opens in new tab)"
               >
                 Visit Malwa Updates Online
                 <ExternalLink className="w-5 h-5" />
